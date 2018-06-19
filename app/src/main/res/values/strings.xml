@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">X-Sena</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Apagar todos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="string_background">background</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_jogos">JogosActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_meus_jogos">Meus Jogos</string>
+    <string name="apagar_string">Apagar</string>
+    <string name="selecionar_todos_string">Selecionar Todos</string>
+    <string name="apagar_todos_string">Apagar Todos</string>
+    <string name="apagar_selecionados_button">Apagar Selecionados</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="lblBtnDel">Apagar Selecionados</string>
+    <string name="lblBtnSel">Selecionar Todos</string>
+</resources>

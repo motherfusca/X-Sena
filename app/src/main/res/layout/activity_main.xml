@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drausiotronolone.xsena.MainActivity"
+    android:background="#354864">
+
+
+    <ImageView android:id="@+id/bkg" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/home"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeView"
+        android:src="@drawable/nome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/picture"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/resultText"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/emordem_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="emOrdemButton"
+        android:background="@drawable/ordem_custom"
+        android:layout_alignTop="@+id/foraordem_button"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/foraordem_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="foraDeOrdemButton"
+        android:background="@drawable/foraordem_custom"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sorte_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="surpreendaMeButton"
+        android:background="@drawable/sorte_custom"
+        android:layout_alignTop="@+id/foraordem_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+
+
+    <Button
+        android:id="@+id/salvar_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="salvarButton"
+        android:background="@drawable/salvar_custom"
+        android:layout_below="@+id/emordem_button"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/meusjogos_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="meusJogosButton"
+        android:background="@drawable/meusjogos_custom"
+        android:layout_below="@+id/sorte_button"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp" />
+
+</RelativeLayout>
